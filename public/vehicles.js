@@ -1,0 +1,3822 @@
+// Generado desde catalog.json. Ejecuta npm run catalog:build después de editarlo.
+window.vehicleDB = {
+  "Auto": {
+    "Chevrolet": {
+      "Spark": {
+        "minYear": 2005,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Sail": {
+        "minYear": 2011,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tracker": {
+        "minYear": 2013,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Onix": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Colorado": {
+        "minYear": 2004,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Captiva": {
+        "minYear": 2006,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Silverado": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Groove": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Spin": {
+        "minYear": 2013,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Cavalier": {
+        "minYear": 1995,
+        "maxYear": 2021,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Prisma": {
+        "minYear": 2013,
+        "maxYear": 2019,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Cruze": {
+        "minYear": 2010,
+        "maxYear": 2023,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Equinox": {
+        "minYear": 2008,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Traverse": {
+        "minYear": 2009,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tahoe": {
+        "minYear": 1995,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Suburban": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Montana": {
+        "minYear": 2004,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "D-Max": {
+        "minYear": 2004,
+        "maxYear": 2022,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "N300": {
+        "minYear": 2012,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Orlando": {
+        "minYear": 2012,
+        "maxYear": 2018,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Corsa": {
+        "minYear": 1994,
+        "maxYear": 2011,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Optra": {
+        "minYear": 2004,
+        "maxYear": 2013,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Aveo": {
+        "minYear": 2005,
+        "maxYear": 2014,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Suzuki": {
+      "Swift": {
+        "minYear": 2004,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Baleno": {
+        "minYear": 1995,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Jimny": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Alto": {
+        "minYear": 2005,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "S-Presso": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Vitara": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Ertiga": {
+        "minYear": 2012,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Celerio": {
+        "minYear": 2009,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Dzire": {
+        "minYear": 2012,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Ignis": {
+        "minYear": 2001,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Grand Nomade": {
+        "minYear": 1999,
+        "maxYear": 2019,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Grand Vitara": {
+        "minYear": 1998,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "APV": {
+        "minYear": 2005,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Ciaz": {
+        "minYear": 2015,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "XL7": {
+        "minYear": 2002,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Fronx": {
+        "minYear": 2023,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Toyota": {
+      "Yaris": {
+        "minYear": 1999,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Corolla": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Hilux": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "RAV4": {
+        "minYear": 1994,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Rush": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "4Runner": {
+        "minYear": 1995,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Fortuner": {
+        "minYear": 2006,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Land Cruiser": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Prado": {
+        "minYear": 1996,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Sequoia": {
+        "minYear": 2001,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tacoma": {
+        "minYear": 1995,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tundra": {
+        "minYear": 2000,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "C-HR": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Prius": {
+        "minYear": 2005,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Prius C": {
+        "minYear": 2012,
+        "maxYear": 2022,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Camry": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Agya": {
+        "minYear": 2023,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Raize": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Avanza": {
+        "minYear": 2022,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Yaris Cross": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Corolla Cross": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tercel": {
+        "minYear": 1990,
+        "maxYear": 2000,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Nissan": {
+      "Versa": {
+        "minYear": 2012,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Kicks": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Navara": {
+        "minYear": 2005,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Qashqai": {
+        "minYear": 2007,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "X-Trail": {
+        "minYear": 2001,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Sentra": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Pathfinder": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Patrol": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "March": {
+        "minYear": 2011,
+        "maxYear": 2023,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Note": {
+        "minYear": 2014,
+        "maxYear": 2021,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Murano": {
+        "minYear": 2003,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tiida": {
+        "minYear": 2006,
+        "maxYear": 2018,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Juke": {
+        "minYear": 2011,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "NP300": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Terrano": {
+        "minYear": 1990,
+        "maxYear": 2015,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Leaf": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "V16": {
+        "minYear": 1990,
+        "maxYear": 2010,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Almera": {
+        "minYear": 1996,
+        "maxYear": 2006,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Honda": {
+      "Civic": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Accord": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CR-V": {
+        "minYear": 1997,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "HR-V": {
+        "minYear": 2015,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Pilot": {
+        "minYear": 2003,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Ridgeline": {
+        "minYear": 2006,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Fit": {
+        "minYear": 2004,
+        "maxYear": 2022,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "WR-V": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "City": {
+        "minYear": 2010,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Odyssey": {
+        "minYear": 1995,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Hyundai": {
+      "Accent": {
+        "minYear": 1995,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tucson": {
+        "minYear": 2004,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Santa Fe": {
+        "minYear": 2001,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Elantra": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Grand i10": {
+        "minYear": 2013,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "i10": {
+        "minYear": 2008,
+        "maxYear": 2019,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "i20": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Creta": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Venue": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Palisade": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "H-1": {
+        "minYear": 1998,
+        "maxYear": 2023,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Staria": {
+        "minYear": 2022,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Ioniq": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Kia": {
+      "Morning": {
+        "minYear": 2004,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Rio": {
+        "minYear": 2000,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Cerato": {
+        "minYear": 2004,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Sportage": {
+        "minYear": 1995,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Sorento": {
+        "minYear": 2002,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Soluto": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Seltos": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Sonet": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Niro": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Carens": {
+        "minYear": 2000,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Carnival": {
+        "minYear": 2000,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Frontier": {
+        "minYear": 1998,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Peugeot": {
+      "206": {
+        "minYear": 1999,
+        "maxYear": 2012,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "207": {
+        "minYear": 2007,
+        "maxYear": 2014,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "208": {
+        "minYear": 2012,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "308": {
+        "minYear": 2007,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "508": {
+        "minYear": 2011,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "2008": {
+        "minYear": 2013,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "3008": {
+        "minYear": 2009,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "5008": {
+        "minYear": 2010,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Partner": {
+        "minYear": 1996,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Rifter": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Landtrek": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Mazda": {
+      "Mazda3": {
+        "minYear": 2003,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Mazda6": {
+        "minYear": 2002,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CX-5": {
+        "minYear": 2012,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CX-30": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "BT-50": {
+        "minYear": 2006,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Mazda2": {
+        "minYear": 2007,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CX-3": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CX-9": {
+        "minYear": 2007,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CX-60": {
+        "minYear": 2023,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CX-90": {
+        "minYear": 2024,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "MX-5": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Ford": {
+      "Ranger": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "F-150": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Explorer": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Territory": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Escape": {
+        "minYear": 2001,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "EcoSport": {
+        "minYear": 2003,
+        "maxYear": 2022,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Edge": {
+        "minYear": 2007,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Expedition": {
+        "minYear": 1997,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Mustang": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Bronco": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Maverick": {
+        "minYear": 2022,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Transit": {
+        "minYear": 2000,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Volkswagen": {
+      "Gol": {
+        "minYear": 1990,
+        "maxYear": 2023,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Polo": {
+        "minYear": 2000,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Amarok": {
+        "minYear": 2010,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "T-Cross": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Nivus": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Taos": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tiguan": {
+        "minYear": 2008,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Saveiro": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Virtus": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Vento": {
+        "minYear": 2006,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Jetta": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Golf": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Subaru": {
+      "Impreza": {
+        "minYear": 1993,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "XV": {
+        "minYear": 2012,
+        "maxYear": 2024,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Crosstrek": {
+        "minYear": 2023,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Forester": {
+        "minYear": 1997,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Outback": {
+        "minYear": 1995,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Legacy": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "WRX": {
+        "minYear": 1992,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Evoltis": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Mitsubishi": {
+      "L200": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Montero Sport": {
+        "minYear": 1997,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Outlander": {
+        "minYear": 2003,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "ASX": {
+        "minYear": 2011,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Eclipse Cross": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Xpander": {
+        "minYear": 2022,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Mirage": {
+        "minYear": 2013,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Lancer": {
+        "minYear": 1990,
+        "maxYear": 2018,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "MG": {
+      "MG3": {
+        "minYear": 2012,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "ZS": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "RX5": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "HS": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "MG5": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "MG6": {
+        "minYear": 2013,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "ZX": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Marvel R": {
+        "minYear": 2022,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "MG4": {
+        "minYear": 2023,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Chery": {
+      "Tiggo 2": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tiggo 2 Pro": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tiggo 3": {
+        "minYear": 2014,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tiggo 4": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tiggo 7 Pro": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tiggo 8": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tiggo 8 Pro": {
+        "minYear": 2022,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Arrizo 5": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "IQ": {
+        "minYear": 2007,
+        "maxYear": 2021,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Changan": {
+      "CS75 Plus": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "Alsvin Plus": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "CS35 Max": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "CS55 Plus": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "CS55 Plus iDD": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "CS15 Plus": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "CS35 Plus": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "Lumin": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "Eado Plus iDD": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "UNI-K": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "UNI-T": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "X7 Plus": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "Hunter": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "Hunter REEV": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "Alsvin": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      }
+    },
+    "Deepal": {
+      "S05": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "S07": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "G318": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      }
+    },
+    "Avatr": {
+      "11": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      },
+      "07": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.changan.cl/"
+      }
+    },
+    "GWM": {
+      "Poer P500 PHEV": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      },
+      "Poer Plus": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      },
+      "Poer": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      },
+      "Wingle 7": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      }
+    },
+    "Haval": {
+      "H7 Max": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      },
+      "H7": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      },
+      "H6 GT": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      },
+      "H6": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      },
+      "Jolion Hybrid": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      },
+      "Jolion Max": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      },
+      "Jolion Pro": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      },
+      "Jolion": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      }
+    },
+    "Tank": {
+      "300": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      },
+      "500": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      }
+    },
+    "Ora": {
+      "5": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      },
+      "03": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gwm.cl/"
+      }
+    },
+    "BYD": {
+      "Song Plus DM-i": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.byd.com/cl"
+      },
+      "Yuan Plus": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.byd.com/cl"
+      },
+      "Song Pro": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.byd.com/cl"
+      },
+      "Dolphin Mini": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.byd.com/cl"
+      },
+      "Shark": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.byd.com/cl"
+      },
+      "Sealion 7": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.byd.com/cl"
+      },
+      "Atto 8": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.byd.com/cl"
+      },
+      "Yuan Pro DM-i": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.byd.com/cl"
+      }
+    },
+    "Geely": {
+      "Coolray Lite": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.geely.cl/modelos/"
+      },
+      "Coolray": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.geely.cl/modelos/"
+      },
+      "Cityray": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.geely.cl/modelos/"
+      },
+      "Starray": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.geely.cl/modelos/"
+      },
+      "Okavango": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.geely.cl/modelos/"
+      },
+      "EX2": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.geely.cl/modelos/"
+      },
+      "EX5 EM-i": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.geely.cl/modelos/"
+      },
+      "EX5": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.geely.cl/modelos/"
+      }
+    },
+    "Renault": {
+      "Arkana mild hybrid": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.renault.cl/"
+      },
+      "Koleos E-Tech Hybrid": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.renault.cl/"
+      },
+      "Master": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.renault.cl/"
+      }
+    },
+    "Citroën": {
+      "C3": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.citroen.cl/modelos.html"
+      },
+      "C4": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.citroen.cl/modelos.html"
+      },
+      "C5 Aircross": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.citroen.cl/modelos.html"
+      },
+      "Berlingo Multispace": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.citroen.cl/modelos.html"
+      },
+      "Berlingo Van": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.citroen.cl/modelos.html"
+      }
+    },
+    "Omoda": {
+      "C5": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.omodajaecoo.cl/"
+      },
+      "C5 SHS": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.omodajaecoo.cl/"
+      },
+      "C7": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.omodajaecoo.cl/"
+      },
+      "E5": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.omodajaecoo.cl/"
+      }
+    },
+    "Jaecoo": {
+      "J5": {
+        "minYear": 2025,
+        "maxYear": 2026,
+        "years": [
+          2025,
+          2026
+        ],
+        "yearBasis": "local_launch",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.omodajaecoo.cl/",
+        "yearSource": "https://www.omodajaecoo.cl/2025/07/omoda-jaecoo-revela-precios-y-versiones-del-esperado-jaecoo-5/"
+      },
+      "J6": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.omodajaecoo.cl/"
+      },
+      "J7": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.omodajaecoo.cl/"
+      },
+      "J7 SHS": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.omodajaecoo.cl/"
+      },
+      "J8": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.omodajaecoo.cl/"
+      }
+    },
+    "BMW": {
+      "X1": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bmw.cl/"
+      },
+      "X1 Híbrido": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bmw.cl/"
+      },
+      "X2": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bmw.cl/"
+      },
+      "X2 M35i": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bmw.cl/"
+      },
+      "X3": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bmw.cl/"
+      },
+      "X3 Híbrido": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bmw.cl/"
+      },
+      "X5": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bmw.cl/"
+      },
+      "X6": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bmw.cl/"
+      },
+      "X7": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bmw.cl/"
+      },
+      "Serie 1": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bmw.cl/"
+      },
+      "M135": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bmw.cl/"
+      },
+      "Serie 3": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bmw.cl/"
+      },
+      "Serie 3 Híbrido": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bmw.cl/"
+      }
+    },
+    "Audi": {
+      "A1": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.audi.cl/modelos/nuestros-modelos"
+      },
+      "RS e-tron GT": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.audi.cl/modelos/nuestros-modelos"
+      }
+    },
+    "JAC": {
+      "T8 Pro": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gildemeisterretail.cl/marcas/jac/"
+      },
+      "T9": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gildemeisterretail.cl/marcas/jac/"
+      },
+      "Refine Cargo": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gildemeisterretail.cl/marcas/jac/"
+      },
+      "X200": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gildemeisterretail.cl/marcas/jac/"
+      },
+      "Sunray Pasajeros": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.gildemeisterretail.cl/marcas/jac/"
+      }
+    },
+    "DFSK": {
+      "Z9": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.derco.cl/"
+      }
+    }
+  },
+  "Moto": {
+    "Yamaha": {
+      "MT-03": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "MT-07": {
+        "minYear": 2014,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "MT-09": {
+        "minYear": 2014,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "MT-10": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "R15": {
+        "minYear": 2008,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "R3": {
+        "minYear": 2015,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "R7": {
+        "minYear": 2022,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "R1": {
+        "minYear": 1998,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "FZ-S": {
+        "minYear": 2014,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "FZ-25": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "FZ-16": {
+        "minYear": 2009,
+        "maxYear": 2016,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tenere 700": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Super Tenere 1200": {
+        "minYear": 2010,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "NMAX 155": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "XMAX 300": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "TMAX": {
+        "minYear": 2001,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Aerox": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Ray ZR": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Fazer 150": {
+        "minYear": 2014,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Fazer 250": {
+        "minYear": 2008,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "XT660R": {
+        "minYear": 2004,
+        "maxYear": 2016,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "WR250F": {
+        "minYear": 2001,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "WR450F": {
+        "minYear": 2003,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "YZ250": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "YZ250F": {
+        "minYear": 2001,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "YZ450F": {
+        "minYear": 2003,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "XTZ 125": {
+        "minYear": 2003,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Lander 250": {
+        "minYear": 2007,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "XTZ 150 Crosser": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Honda": {
+      "CB500X": {
+        "minYear": 2013,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Navi": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "XR190L": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "XR150L": {
+        "minYear": 2015,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CB190R": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CBR500R": {
+        "minYear": 2013,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Africa Twin": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CB125F": {
+        "minYear": 2015,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CG150 Titan": {
+        "minYear": 2004,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Elite 125": {
+        "minYear": 2008,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "PCX 150/160": {
+        "minYear": 2013,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "ADV 150": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tornado 250": {
+        "minYear": 2001,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CRF250F": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CRF300L": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CRF250L": {
+        "minYear": 2013,
+        "maxYear": 2020,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CBR250R": {
+        "minYear": 2011,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CBR650R": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CB650R": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "NC750X": {
+        "minYear": 2014,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Rebel 300": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Rebel 500": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "GL1800 Gold Wing": {
+        "minYear": 2001,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CRF450R": {
+        "minYear": 2002,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "CRF250R": {
+        "minYear": 2004,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Dio": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Sahara 300": {
+        "minYear": 2024,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Bajaj": {
+      "Pulsar RS200": {
+        "minYear": 2015,
+        "maxYear": 2026,
+        "yearBasis": "reference",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bajajauto.com/en-cl",
+        "yearSource": "https://www.bajajauto.com/press-release/press_release_of_bal_june2015.pdf",
+        "chileHistorySource": "https://www.club-bajaj.com/t32379-pulsar-rs200"
+      },
+      "Pulsar NS200": {
+        "minYear": 2013,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bajajauto.com/en-cl"
+      },
+      "Pulsar NS160": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bajajauto.com/en-cl"
+      },
+      "Pulsar NS125": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Pulsar N250": {
+        "minYear": 2023,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bajajauto.com/en-cl"
+      },
+      "Dominar 400": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bajajauto.com/en-cl"
+      },
+      "Dominar 250": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bajajauto.com/en-cl"
+      },
+      "Avenger 220": {
+        "minYear": 2010,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Avenger 160": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Boxer 150": {
+        "minYear": 2012,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Platina 100": {
+        "minYear": 2006,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Platina 125": {
+        "minYear": 2008,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Discover 125": {
+        "minYear": 2011,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Pulsar LS125": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.bajajauto.com/en-cl"
+      },
+      "Pulsar NS400Z": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://motochile.cl/"
+      },
+      "Dominar 400 ADV": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://motochile.cl/"
+      },
+      "Pulsar NS200 UG2": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://motochile.cl/"
+      },
+      "Pulsar NS160 UG2": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://motochile.cl/"
+      },
+      "Pulsar 125": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://motochile.cl/"
+      }
+    },
+    "Kawasaki": {
+      "Ninja 400": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Z400": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Versys-X 300": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "KLR 650": {
+        "minYear": 1987,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Z650": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Ninja 300": {
+        "minYear": 2013,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Ninja 650": {
+        "minYear": 2006,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Ninja ZX-6R": {
+        "minYear": 1995,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Ninja ZX-10R": {
+        "minYear": 2004,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Z900": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Z1000": {
+        "minYear": 2003,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Versys 650": {
+        "minYear": 2007,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Versys 1000": {
+        "minYear": 2012,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Vulcan S": {
+        "minYear": 2015,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "KX250": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "KX450": {
+        "minYear": 2006,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "KLX140": {
+        "minYear": 2008,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "KLX230": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "KLX250": {
+        "minYear": 2009,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "KLX300": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "W800": {
+        "minYear": 2011,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "KTM": {
+      "Duke 200": {
+        "minYear": 2012,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Duke 250": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Duke 390": {
+        "minYear": 2013,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "RC 200": {
+        "minYear": 2014,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "RC 390": {
+        "minYear": 2014,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "390 Adventure": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "250 Adventure": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "790 Duke": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "890 Duke R": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "890 Adventure": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "1290 Super Duke R": {
+        "minYear": 2014,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "1290 Super Adventure": {
+        "minYear": 2015,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "EXC-F 250": {
+        "minYear": 2007,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "EXC-F 350": {
+        "minYear": 2012,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "EXC-F 450": {
+        "minYear": 2003,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "EXC 300": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Suzuki": {
+      "Gixxer 150": {
+        "minYear": 2014,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Gixxer 250": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "V-Strom 250": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "V-Strom 650": {
+        "minYear": 2004,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "V-Strom 1050": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "GSX-R150": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "GSX-S150": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "GSX-S750": {
+        "minYear": 2015,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "GSX-R600": {
+        "minYear": 1992,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "GSX-R1000": {
+        "minYear": 2001,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "DR650": {
+        "minYear": 1990,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Burgman 400": {
+        "minYear": 1998,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Hayabusa": {
+        "minYear": 1999,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "RM-Z250": {
+        "minYear": 2004,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "RM-Z450": {
+        "minYear": 2005,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "TVS": {
+      "Apache RTR 160 4V": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Apache RTR 200 4V": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Apache RR 310": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "NTORQ 125": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Raider 125": {
+        "minYear": 2022,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Ronin 225": {
+        "minYear": 2023,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "HLX 150": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "BMW": {
+      "G310R": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "G310GS": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "F750GS": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "F850GS": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "F900R": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "F900XR": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "R1200GS": {
+        "minYear": 2004,
+        "maxYear": 2018,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "R1250GS": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "R1300GS": {
+        "minYear": 2024,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "S1000RR": {
+        "minYear": 2009,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "S1000XR": {
+        "minYear": 2015,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Royal Enfield": {
+      "Meteor 350": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Himalayan": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Himalayan 450": {
+        "minYear": 2024,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Interceptor 650": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Continental GT 650": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Classic 350": {
+        "minYear": 2022,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Hunter 350": {
+        "minYear": 2023,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Super Meteor 650": {
+        "minYear": 2023,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "CFMoto": {
+      "150NK": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "250NK": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "300NK": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "300SR": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "400NK": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "450SR": {
+        "minYear": 2023,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "650MT": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "650NK": {
+        "minYear": 2014,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "700CL-X": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "800MT": {
+        "minYear": 2022,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Haojue": {
+      "DR160": {
+        "minYear": 2019,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "NK150": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "KA150": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "TR150": {
+        "minYear": 2017,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "UHR150": {
+        "minYear": 2023,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Triumph": {
+      "Trident 660": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tiger Sport 660": {
+        "minYear": 2022,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Street Triple": {
+        "minYear": 2007,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Speed Triple": {
+        "minYear": 1994,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tiger 900": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Tiger 1200": {
+        "minYear": 2012,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Bonneville T100": {
+        "minYear": 2002,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Bonneville T120": {
+        "minYear": 2016,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Scrambler 400 X": {
+        "minYear": 2024,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Speed 400": {
+        "minYear": 2024,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Ducati": {
+      "Monster": {
+        "minYear": 1993,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Scrambler": {
+        "minYear": 2015,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Multistrada V2": {
+        "minYear": 2022,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Multistrada V4": {
+        "minYear": 2021,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Panigale V2": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Panigale V4": {
+        "minYear": 2018,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      },
+      "Streetfighter V4": {
+        "minYear": 2020,
+        "maxYear": 2026,
+        "yearBasis": "legacy_reference",
+        "marketStatus": "legacy_unverified"
+      }
+    },
+    "Zontes": {
+      "ZT368T-G": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://zontes.cl/modelos/"
+      },
+      "ZT703-RR": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://zontes.cl/modelos/"
+      },
+      "ZT703-F": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://zontes.cl/modelos/"
+      },
+      "ZT350-GK": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://zontes.cl/modelos/"
+      },
+      "ZT350-T2": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://zontes.cl/modelos/"
+      },
+      "ZT200-Z2": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://zontes.cl/modelos/"
+      },
+      "ZT350T-E": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://zontes.cl/modelos/"
+      },
+      "ZT350T-M": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://zontes.cl/modelos/"
+      },
+      "ZT200-G1": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://zontes.cl/modelos/"
+      },
+      "ZT200-U1": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://zontes.cl/modelos/"
+      }
+    },
+    "Keeway": {
+      "K-light 250": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/keeway"
+      },
+      "M250": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/keeway"
+      },
+      "TX 150": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/keeway"
+      },
+      "V 302C": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/keeway"
+      }
+    },
+    "QJMotor": {
+      "NX 150": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/qj-motor"
+      },
+      "SRK 125 R": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/qj-motor"
+      },
+      "SRT 550 SX": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/qj-motor"
+      },
+      "SRT 550 SX Touring": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/qj-motor"
+      },
+      "SRT 600 X": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/qj-motor"
+      },
+      "SRT 800 SX": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/qj-motor"
+      }
+    },
+    "Cyclone": {
+      "RA2": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "documented_year",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.wildbiker.cl/category/cyclone"
+      },
+      "RX-401": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "documented_year",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.wildbiker.cl/category/cyclone"
+      },
+      "RX1": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "documented_year",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.wildbiker.cl/category/cyclone"
+      }
+    },
+    "Kymco": {
+      "X-Town 300": {
+        "minYear": 2023,
+        "maxYear": 2023,
+        "years": [
+          2023
+        ],
+        "yearBasis": "documented_year",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.wildbiker.cl/category/kymco"
+      }
+    },
+    "Voge": {
+      "900DS Adventure": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.cl/"
+      },
+      "250RR": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "RR660S": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "AC350": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "AC525": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "R250": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "R625": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "300 Rally": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "300DS": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "300DS SE": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "DS625X": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "DS800X Rally": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "DS900X": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "SR150GT": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "SR3": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "CU250": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      },
+      "CU625": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.vogechile.com/motocicletas"
+      }
+    },
+    "Benelli": {
+      "302S": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.benelli.com/cl-es/products/302s-3/"
+      },
+      "Leoncino 500 Trail": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.benelli.com/cl-es/products/leoncino-500-trail-3/"
+      },
+      "Leoncino 800 Trail": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://www.benelli.com/cl-es/products/leoncino-800-trail"
+      }
+    },
+    "Fantic": {
+      "Caballero 500 Rally": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/fantic"
+      },
+      "Caballero 700 Scrambler": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/fantic"
+      },
+      "Caballero 700 Travel": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/fantic"
+      },
+      "XE 300 2T": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/fantic"
+      },
+      "XEF 250 4T": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/fantic"
+      },
+      "XEF 310 4T": {
+        "minYear": 2026,
+        "maxYear": 2026,
+        "years": [
+          2026
+        ],
+        "yearBasis": "catalog_snapshot",
+        "marketStatus": "chile_catalog",
+        "source": "https://procircuit.cl/collections/fantic"
+      }
+    }
+  }
+};
+window.premiumVehicleCatalog = [{"type":"Auto","brand":"Toyota","model":"Land Cruiser"},{"type":"Auto","brand":"Toyota","model":"Prado"},{"type":"Auto","brand":"Toyota","model":"Tacoma"},{"type":"Auto","brand":"Toyota","model":"Tundra"},{"type":"Auto","brand":"Ford","model":"F-150"},{"type":"Auto","brand":"Ford","model":"Mustang"},{"type":"Auto","brand":"Ford","model":"Bronco"},{"type":"Auto","brand":"Subaru","model":"WRX"},{"type":"Auto","brand":"Mazda","model":"MX-5"},{"type":"Moto","brand":"Yamaha","model":"R1"},{"type":"Moto","brand":"Yamaha","model":"MT-10"},{"type":"Moto","brand":"Yamaha","model":"Super Tenere 1200"},{"type":"Moto","brand":"Honda","model":"Africa Twin"},{"type":"Moto","brand":"Honda","model":"CBR650R"},{"type":"Moto","brand":"Honda","model":"GL1800 Gold Wing"},{"type":"Moto","brand":"Kawasaki","model":"Ninja ZX-6R"},{"type":"Moto","brand":"Kawasaki","model":"Ninja ZX-10R"},{"type":"Moto","brand":"Kawasaki","model":"Z900"},{"type":"Moto","brand":"Kawasaki","model":"Z1000"},{"type":"Moto","brand":"KTM","model":"890 Duke R"},{"type":"Moto","brand":"KTM","model":"1290 Super Duke R"},{"type":"Moto","brand":"KTM","model":"1290 Super Adventure"},{"type":"Moto","brand":"BMW","model":"R1250GS"},{"type":"Moto","brand":"BMW","model":"R1300GS"},{"type":"Moto","brand":"BMW","model":"S1000RR"},{"type":"Moto","brand":"BMW","model":"S1000XR"},{"type":"Moto","brand":"Triumph","model":"Speed Triple"},{"type":"Moto","brand":"Triumph","model":"Tiger 1200"},{"type":"Moto","brand":"Ducati","model":"Multistrada V4"},{"type":"Moto","brand":"Ducati","model":"Panigale V2"},{"type":"Moto","brand":"Ducati","model":"Panigale V4"},{"type":"Moto","brand":"Ducati","model":"Streetfighter V4"},{"type":"Moto","brand":"Suzuki","model":"Hayabusa"},{"type":"Moto","brand":"Suzuki","model":"GSX-R600"},{"type":"Moto","brand":"Suzuki","model":"GSX-R1000"},{"type":"Auto","brand":"Deepal","model":"S05"},{"type":"Auto","brand":"Deepal","model":"S07"},{"type":"Auto","brand":"Deepal","model":"G318"},{"type":"Auto","brand":"Avatr","model":"07"},{"type":"Auto","brand":"Avatr","model":"11"},{"type":"Auto","brand":"Tank","model":"300"},{"type":"Auto","brand":"Tank","model":"500"},{"type":"Auto","brand":"BMW","model":"X1"},{"type":"Auto","brand":"BMW","model":"X1 Híbrido"},{"type":"Auto","brand":"BMW","model":"X2"},{"type":"Auto","brand":"BMW","model":"X2 M35i"},{"type":"Auto","brand":"BMW","model":"X3"},{"type":"Auto","brand":"BMW","model":"X3 Híbrido"},{"type":"Auto","brand":"BMW","model":"X5"},{"type":"Auto","brand":"BMW","model":"X6"},{"type":"Auto","brand":"BMW","model":"X7"},{"type":"Auto","brand":"BMW","model":"Serie 1"},{"type":"Auto","brand":"BMW","model":"M135"},{"type":"Auto","brand":"BMW","model":"Serie 3"},{"type":"Auto","brand":"BMW","model":"Serie 3 Híbrido"},{"type":"Auto","brand":"Audi","model":"A1"},{"type":"Auto","brand":"Audi","model":"RS e-tron GT"},{"type":"Moto","brand":"Voge","model":"900DS Adventure"},{"type":"Moto","brand":"Benelli","model":"Leoncino 800 Trail"},{"type":"Moto","brand":"Voge","model":"RR660S"},{"type":"Moto","brand":"Voge","model":"DS625X"},{"type":"Moto","brand":"Voge","model":"DS800X Rally"},{"type":"Moto","brand":"Voge","model":"DS900X"},{"type":"Moto","brand":"Fantic","model":"Caballero 500 Rally"},{"type":"Moto","brand":"Fantic","model":"Caballero 700 Scrambler"},{"type":"Moto","brand":"Fantic","model":"Caballero 700 Travel"},{"type":"Moto","brand":"Fantic","model":"XE 300 2T"},{"type":"Moto","brand":"Fantic","model":"XEF 250 4T"},{"type":"Moto","brand":"Fantic","model":"XEF 310 4T"}];

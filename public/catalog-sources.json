@@ -1,0 +1,191 @@
+{
+  "checked": "2026-10-17",
+  "notes": [
+    "Catálogo ampliado y parcial; no es un registro nacional de homologación.",
+    "Los rangos heredados son referenciales y no certifican llegada a Chile.",
+    "Las incorporaciones sin historial local comprobado habilitan solo el año de la consulta (2026). No se inventan años anteriores.",
+    "Presencia en una web comercial no prueba todos los años de fabricación. Confirmar padrón y versión con el distribuidor."
+  ],
+  "sources": [
+    {
+      "brand": "Changan",
+      "url": "https://www.changan.cl/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Deepal",
+      "url": "https://www.changan.cl/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Avatr",
+      "url": "https://www.changan.cl/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "GWM",
+      "url": "https://www.gwm.cl/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Haval",
+      "url": "https://www.gwm.cl/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Tank",
+      "url": "https://www.gwm.cl/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Ora",
+      "url": "https://www.gwm.cl/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "BYD",
+      "url": "https://www.byd.com/cl",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Geely",
+      "url": "https://www.geely.cl/modelos/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Renault",
+      "url": "https://www.renault.cl/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Citroën",
+      "url": "https://www.citroen.cl/modelos.html",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Omoda",
+      "url": "https://www.omodajaecoo.cl/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Jaecoo",
+      "url": "https://www.omodajaecoo.cl/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "BMW",
+      "url": "https://www.bmw.cl/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Audi",
+      "url": "https://www.audi.cl/modelos/nuestros-modelos",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "JAC",
+      "url": "https://www.gildemeisterretail.cl/marcas/jac/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "DFSK",
+      "url": "https://www.derco.cl/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Bajaj",
+      "url": "https://www.bajajauto.com/en-cl",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Bajaj",
+      "url": "https://motochile.cl/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Zontes",
+      "url": "https://zontes.cl/modelos/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Keeway",
+      "url": "https://procircuit.cl/collections/keeway",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "QJMotor",
+      "url": "https://procircuit.cl/collections/qj-motor",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Cyclone",
+      "url": "https://www.wildbiker.cl/category/cyclone",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Kymco",
+      "url": "https://www.wildbiker.cl/category/kymco",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Voge",
+      "url": "https://www.vogechile.cl/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Benelli",
+      "url": "https://www.benelli.com/cl-es/products/302s-3/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Benelli",
+      "url": "https://www.benelli.com/cl-es/products/leoncino-500-trail-3/",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Benelli",
+      "url": "https://www.benelli.com/cl-es/products/leoncino-800-trail",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno consultado; no acredita fecha de llegada ni continuidad histórica."
+    },
+    {
+      "brand": "Voge",
+      "url": "https://www.vogechile.com/motocicletas",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno; historial anterior pendiente."
+    },
+    {
+      "brand": "Fantic",
+      "url": "https://procircuit.cl/collections/fantic",
+      "checked": "2026-10-17",
+      "scope": "Presencia en catálogo chileno; historial anterior pendiente."
+    }
+  ]
+}

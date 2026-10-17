@@ -1,0 +1,347 @@
+[
+  {
+    "type": "Auto",
+    "brand": "Toyota",
+    "model": "Land Cruiser"
+  },
+  {
+    "type": "Auto",
+    "brand": "Toyota",
+    "model": "Prado"
+  },
+  {
+    "type": "Auto",
+    "brand": "Toyota",
+    "model": "Tacoma"
+  },
+  {
+    "type": "Auto",
+    "brand": "Toyota",
+    "model": "Tundra"
+  },
+  {
+    "type": "Auto",
+    "brand": "Ford",
+    "model": "F-150"
+  },
+  {
+    "type": "Auto",
+    "brand": "Ford",
+    "model": "Mustang"
+  },
+  {
+    "type": "Auto",
+    "brand": "Ford",
+    "model": "Bronco"
+  },
+  {
+    "type": "Auto",
+    "brand": "Subaru",
+    "model": "WRX"
+  },
+  {
+    "type": "Auto",
+    "brand": "Mazda",
+    "model": "MX-5"
+  },
+  {
+    "type": "Moto",
+    "brand": "Yamaha",
+    "model": "R1"
+  },
+  {
+    "type": "Moto",
+    "brand": "Yamaha",
+    "model": "MT-10"
+  },
+  {
+    "type": "Moto",
+    "brand": "Yamaha",
+    "model": "Super Tenere 1200"
+  },
+  {
+    "type": "Moto",
+    "brand": "Honda",
+    "model": "Africa Twin"
+  },
+  {
+    "type": "Moto",
+    "brand": "Honda",
+    "model": "CBR650R"
+  },
+  {
+    "type": "Moto",
+    "brand": "Honda",
+    "model": "GL1800 Gold Wing"
+  },
+  {
+    "type": "Moto",
+    "brand": "Kawasaki",
+    "model": "Ninja ZX-6R"
+  },
+  {
+    "type": "Moto",
+    "brand": "Kawasaki",
+    "model": "Ninja ZX-10R"
+  },
+  {
+    "type": "Moto",
+    "brand": "Kawasaki",
+    "model": "Z900"
+  },
+  {
+    "type": "Moto",
+    "brand": "Kawasaki",
+    "model": "Z1000"
+  },
+  {
+    "type": "Moto",
+    "brand": "KTM",
+    "model": "890 Duke R"
+  },
+  {
+    "type": "Moto",
+    "brand": "KTM",
+    "model": "1290 Super Duke R"
+  },
+  {
+    "type": "Moto",
+    "brand": "KTM",
+    "model": "1290 Super Adventure"
+  },
+  {
+    "type": "Moto",
+    "brand": "BMW",
+    "model": "R1250GS"
+  },
+  {
+    "type": "Moto",
+    "brand": "BMW",
+    "model": "R1300GS"
+  },
+  {
+    "type": "Moto",
+    "brand": "BMW",
+    "model": "S1000RR"
+  },
+  {
+    "type": "Moto",
+    "brand": "BMW",
+    "model": "S1000XR"
+  },
+  {
+    "type": "Moto",
+    "brand": "Triumph",
+    "model": "Speed Triple"
+  },
+  {
+    "type": "Moto",
+    "brand": "Triumph",
+    "model": "Tiger 1200"
+  },
+  {
+    "type": "Moto",
+    "brand": "Ducati",
+    "model": "Multistrada V4"
+  },
+  {
+    "type": "Moto",
+    "brand": "Ducati",
+    "model": "Panigale V2"
+  },
+  {
+    "type": "Moto",
+    "brand": "Ducati",
+    "model": "Panigale V4"
+  },
+  {
+    "type": "Moto",
+    "brand": "Ducati",
+    "model": "Streetfighter V4"
+  },
+  {
+    "type": "Moto",
+    "brand": "Suzuki",
+    "model": "Hayabusa"
+  },
+  {
+    "type": "Moto",
+    "brand": "Suzuki",
+    "model": "GSX-R600"
+  },
+  {
+    "type": "Moto",
+    "brand": "Suzuki",
+    "model": "GSX-R1000"
+  },
+  {
+    "type": "Auto",
+    "brand": "Deepal",
+    "model": "S05"
+  },
+  {
+    "type": "Auto",
+    "brand": "Deepal",
+    "model": "S07"
+  },
+  {
+    "type": "Auto",
+    "brand": "Deepal",
+    "model": "G318"
+  },
+  {
+    "type": "Auto",
+    "brand": "Avatr",
+    "model": "07"
+  },
+  {
+    "type": "Auto",
+    "brand": "Avatr",
+    "model": "11"
+  },
+  {
+    "type": "Auto",
+    "brand": "Tank",
+    "model": "300"
+  },
+  {
+    "type": "Auto",
+    "brand": "Tank",
+    "model": "500"
+  },
+  {
+    "type": "Auto",
+    "brand": "BMW",
+    "model": "X1"
+  },
+  {
+    "type": "Auto",
+    "brand": "BMW",
+    "model": "X1 Híbrido"
+  },
+  {
+    "type": "Auto",
+    "brand": "BMW",
+    "model": "X2"
+  },
+  {
+    "type": "Auto",
+    "brand": "BMW",
+    "model": "X2 M35i"
+  },
+  {
+    "type": "Auto",
+    "brand": "BMW",
+    "model": "X3"
+  },
+  {
+    "type": "Auto",
+    "brand": "BMW",
+    "model": "X3 Híbrido"
+  },
+  {
+    "type": "Auto",
+    "brand": "BMW",
+    "model": "X5"
+  },
+  {
+    "type": "Auto",
+    "brand": "BMW",
+    "model": "X6"
+  },
+  {
+    "type": "Auto",
+    "brand": "BMW",
+    "model": "X7"
+  },
+  {
+    "type": "Auto",
+    "brand": "BMW",
+    "model": "Serie 1"
+  },
+  {
+    "type": "Auto",
+    "brand": "BMW",
+    "model": "M135"
+  },
+  {
+    "type": "Auto",
+    "brand": "BMW",
+    "model": "Serie 3"
+  },
+  {
+    "type": "Auto",
+    "brand": "BMW",
+    "model": "Serie 3 Híbrido"
+  },
+  {
+    "type": "Auto",
+    "brand": "Audi",
+    "model": "A1"
+  },
+  {
+    "type": "Auto",
+    "brand": "Audi",
+    "model": "RS e-tron GT"
+  },
+  {
+    "type": "Moto",
+    "brand": "Voge",
+    "model": "900DS Adventure"
+  },
+  {
+    "type": "Moto",
+    "brand": "Benelli",
+    "model": "Leoncino 800 Trail"
+  },
+  {
+    "type": "Moto",
+    "brand": "Voge",
+    "model": "RR660S"
+  },
+  {
+    "type": "Moto",
+    "brand": "Voge",
+    "model": "DS625X"
+  },
+  {
+    "type": "Moto",
+    "brand": "Voge",
+    "model": "DS800X Rally"
+  },
+  {
+    "type": "Moto",
+    "brand": "Voge",
+    "model": "DS900X"
+  },
+  {
+    "type": "Moto",
+    "brand": "Fantic",
+    "model": "Caballero 500 Rally"
+  },
+  {
+    "type": "Moto",
+    "brand": "Fantic",
+    "model": "Caballero 700 Scrambler"
+  },
+  {
+    "type": "Moto",
+    "brand": "Fantic",
+    "model": "Caballero 700 Travel"
+  },
+  {
+    "type": "Moto",
+    "brand": "Fantic",
+    "model": "XE 300 2T"
+  },
+  {
+    "type": "Moto",
+    "brand": "Fantic",
+    "model": "XEF 250 4T"
+  },
+  {
+    "type": "Moto",
+    "brand": "Fantic",
+    "model": "XEF 310 4T"
+  }
+]

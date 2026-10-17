@@ -1,0 +1,24 @@
+# Publicación del servidor completo. Las claves se ingresan en Render.
+services:
+  - type: web
+    name: garage-premium-moderno
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_PUBLISHABLE_KEY
+        sync: false
+      - key: SUPABASE_SECRET_KEY
+        sync: false
+# Gemini y Mercado Pago se agregan después en Environment.
+# APP_BASE_URL usa RENDER_EXTERNAL_URL si no se configura un dominio propio.
