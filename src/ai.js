@@ -65,5 +65,9 @@ export async function generateReport(vehicle, symptoms, info, generate) {
     const response = await invoke(request);
     const report = parseReport(response.text);
     return { model, report, result: `[ESTADO]\n${report.estado}\n\n[CRITICO]\n${report.critico.map(v=>'- '+v).join('\n')}\n\n[MANTENIMIENTO]\n${report.mantenimiento.map(v=>'- '+v).join('\n')}` };
-  } catch (error) { throw mapAiError(error); }
+  } catch (error) {
+    const mapped = mapAiError(error);
+    if (mapped !== error) mapped.cause = error;
+    throw mapped;
+  }
 }
