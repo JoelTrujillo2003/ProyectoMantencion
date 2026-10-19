@@ -13,6 +13,10 @@ Mercado Pago no está habilitado; no hay un pago real que completar.
 El alojamiento gratuito puede tardar en responder después de estar inactivo.
 Abre la web con anticipación y comprueba el acceso antes de presentar.
 No se garantiza disponibilidad sin interrupciones de los servicios externos.
+Gemini 3.8 Flash es la primera opción. Si el proveedor devuelve un fallo temporal
+o excede su plazo de respuesta, se intenta Gemini 3.6 Flash como respaldo.
+La respuesta de la API indica el modelo que realmente generó el reporte.
+Los errores de permisos, cuota o respuestas inválidas no activan ese respaldo.
 
 ## Abrir el ZIP en otro computador
 

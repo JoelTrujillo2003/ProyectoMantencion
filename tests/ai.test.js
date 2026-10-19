@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { DEFAULT_MODEL, GEMINI_HTTP_OPTIONS, generateReport, parseReport, mapAiError } from '../src/ai.js';
+import { DEFAULT_MODEL, DEFAULT_FALLBACK_MODEL, GEMINI_HTTP_OPTIONS, generateReport, parseReport, mapAiError } from '../src/ai.js';
 import { GoogleGenAI } from '@google/genai';
 const report={estado:'Ejemplo de prueba; no es una evaluación real.',critico:['Revisar en taller.','Confirmar historial.'],mantenimiento:['Consultar manual.','Confirmar versión.']};
 test('Gemini solicita salida estructurada, con límite de espera y sin identidad de cuenta',async()=>{
@@ -53,4 +53,27 @@ test('reintenta una indisponibilidad temporal de Gemini y recupera el reporte',a
   const result=await generateReport({},'',{},params=>client.models.generateContent(params));
   assert.equal(calls,2);
   assert.deepEqual(result.report,report);
+});
+
+test('usa el respaldo solo ante indisponibilidad temporal e informa el modelo real',async()=>{
+  const models=[];
+  const result=await generateReport({},'',{},async request=>{
+    models.push(request.model);
+    if(models.length===1) throw Object.assign(new Error('Unavailable'),{status:503});
+    return {text:JSON.stringify(report)};
+  });
+  assert.deepEqual(models,[DEFAULT_MODEL,DEFAULT_FALLBACK_MODEL]);
+  assert.equal(result.model,DEFAULT_FALLBACK_MODEL);
+  assert.deepEqual(result.report,report);
+});
+
+test('no cambia de modelo para eludir errores de permiso, cuota o respuestas inválidas',async()=>{
+  for(const failure of [{status:403},{status:429}]) {
+    let calls=0;
+    await assert.rejects(()=>generateReport({},'',{},async()=>{calls++;throw failure;}));
+    assert.equal(calls,1);
+  }
+  let calls=0;
+  await assert.rejects(()=>generateReport({},'',{},async()=>{calls++;return {text:'respuesta incompleta'};}),{code:'ai_invalid_response'});
+  assert.equal(calls,1);
 });

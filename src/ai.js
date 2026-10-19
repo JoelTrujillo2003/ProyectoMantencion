@@ -2,8 +2,9 @@ import { GoogleGenAI } from '@google/genai';
 import { ApiError } from './supabase.js';
 
 export const DEFAULT_MODEL = 'gemini-3.8-flash';
+export const DEFAULT_FALLBACK_MODEL = 'gemini-3.6-flash';
 export const GEMINI_HTTP_OPTIONS = {
-  timeout: 60000,
+  timeout: 25000,
   retryOptions: { attempts: 2, initialDelay: 0.25, maxDelay: 1, jitter: 0, httpStatusCodes: [408, 500, 502, 503, 504] }
 };
 export const SYSTEM_INSTRUCTION = `Eres un asistente de mantenimiento de autos y motos para Chile.
@@ -67,9 +68,23 @@ export async function generateReport(vehicle, symptoms, info, generate) {
       const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY, httpOptions: GEMINI_HTTP_OPTIONS });
       return ai.models.generateContent(params);
     });
-    const response = await invoke(request);
+    let usedModel = model;
+    let response;
+    try {
+      response = await invoke(request);
+    } catch (error) {
+      const status = Number(error.status || error.statusCode || error.code);
+      const temporary = [408, 500, 502, 503, 504].includes(status) || error.name === 'AbortError' || error.name === 'TimeoutError';
+      const fallback = process.env.GEMINI_FALLBACK_MODEL ?? DEFAULT_FALLBACK_MODEL;
+      if (!temporary || !fallback || fallback === model || request.config.abortSignal.aborted) throw error;
+      usedModel = fallback;
+      response = await invoke({ ...request, model: fallback, config: {
+        ...request.config,
+        thinkingConfig: fallback.startsWith('gemini-3') ? { thinkingLevel: 'LOW' } : undefined
+      } });
+    }
     const report = parseReport(response.text);
-    return { model, report, result: `[ESTADO]\n${report.estado}\n\n[CRITICO]\n${report.critico.map(v=>'- '+v).join('\n')}\n\n[MANTENIMIENTO]\n${report.mantenimiento.map(v=>'- '+v).join('\n')}` };
+    return { model: usedModel, report, result: `[ESTADO]\n${report.estado}\n\n[CRITICO]\n${report.critico.map(v=>'- '+v).join('\n')}\n\n[MANTENIMIENTO]\n${report.mantenimiento.map(v=>'- '+v).join('\n')}` };
   } catch (error) {
     const mapped = mapAiError(error);
     if (mapped !== error) mapped.cause = error;
