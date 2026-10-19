@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cómo Garage Premium Moderno utiliza los datos de tu cuenta, vehículos y consultas.">
+  <title>Privacidad y uso de tus datos | Garage Premium Moderno</title>
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    .privacy-page{max-width:800px;margin:0 auto;padding:64px 24px 80px}
+    .privacy-page h1{font-size:clamp(2.8rem,8vw,4.5rem);margin:24px 0}
+    .privacy-page h2{font:700 1.3rem/1.4 Manrope,'Segoe UI',sans-serif;margin:32px 0 12px}
+    .privacy-page p+p{margin-top:16px}.privacy-page a{text-decoration:underline;text-underline-offset:3px}
+    .privacy-page .updated{font-size:.85rem;color:var(--muted);margin-bottom:24px}
+  </style>
+</head>
+<body>
+  <main class="privacy-page">
+    <a href="/">← Volver a Garage Premium Moderno</a>
+    <h1>Privacidad y uso de tus datos</h1>
+    <p class="updated">Actualizado el 18 de octubre de 2026</p>
+    <p>Garage Premium Moderno permite organizar vehículos y, con acceso Premium, solicitar orientación sobre su mantenimiento. Este aviso explica el uso de datos en la aplicación.</p>
+    <h2>Tu cuenta y el acceso con Google</h2>
+    <p>Supabase gestiona la autenticación y almacena los datos de la cuenta. Si accedes con Google, Google comparte con Supabase tu identidad, correo y los datos básicos de perfil que autorices, como nombre e imagen. Se utilizan para identificarte y asociar tu cuenta con tus vehículos. La aplicación no recibe tu contraseña de Google ni solicita acceso a Gmail, Drive o tus contactos.</p>
+    <p>Microsoft y Apple, cuando estén habilitados, cumplen la misma función de autenticación mediante los datos básicos que autorices. Si te registras por correo y contraseña, Supabase gestiona esas credenciales.</p>
+    <h2>Los vehículos que guardas</h2>
+    <p>Se almacenan en Supabase el tipo, marca, modelo, año y kilometraje, asociados a tu identificador de usuario y la fecha de registro. Se usan para mostrar tu colección al iniciar sesión. Las reglas de acceso de la base de datos restringen la consulta de vehículos a su propietario; el equipo administrador puede gestionar los datos desde el proyecto.</p>
+    <h2>Consultas de inteligencia artificial</h2>
+    <p>Cuando solicitas una orientación con IA, se envían a Google Gemini los datos del vehículo y los síntomas que escribas. No se adjuntan el correo ni la contraseña de tu cuenta. Evita incluir datos personales en los síntomas. La aplicación muestra el reporte y no lo almacena en la base de datos del garage.</p>
+    <h2>Mensajes y suscripciones</h2>
+    <p>Al enviar un mensaje desde Hablemos, se registran tu identificador de usuario, correo, tipo de solicitud, asunto, mensaje y fecha para que el equipo administrador pueda atenderlo. Los mensajes no se publican en la web.</p>
+    <p>Los pagos, cuando están habilitados, se tramitan en Mercado Pago. La aplicación guarda los identificadores y el estado de la suscripción necesarios para determinar el acceso Premium. La web no solicita ni almacena números de tarjeta.</p>
+    <h2>Servicios y almacenamiento de la sesión</h2>
+    <p>La web se aloja en Render y utiliza Supabase para el acceso y la base de datos. El navegador conserva la sesión de autenticación para que puedas volver a tu cuenta. Puedes cerrar sesión desde Mi garage. Google Gemini y Mercado Pago intervienen únicamente en las funciones descritas cuando se utilizan.</p>
+    <h2>Revisión, eliminación y contacto</h2>
+    <p>Los datos guardados permanecen en el proyecto de Supabase; cerrar sesión no los elimina. Para solicitar la revisión o eliminación de tu cuenta y sus datos, escribe desde <a href="/#contacto">Hablemos</a> o contacta a <a href="mailto:joel.trujillo@mayor.cl">joel.trujillo@mayor.cl</a>. Indica el correo de la cuenta y tu solicitud. Nunca envíes contraseñas, códigos de acceso ni datos de tarjeta.</p>
+    <p>Puedes revisar y retirar el acceso de Google desde las conexiones de tu cuenta de Google. Retirar ese acceso no elimina por sí solo los datos ya guardados en el garage; solicita también su eliminación si lo deseas.</p>
+  </main>
+</body>
+</html>
