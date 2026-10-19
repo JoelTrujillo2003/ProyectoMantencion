@@ -69,6 +69,13 @@ La orientación con IA requiere iniciar sesión con una cuenta Premium. Guarda l
 
 El reporte es orientativo, no consulta sensores ni manuales en esta versión y no se almacena. Los datos del vehículo sí pueden guardarse en Supabase.
 
+Para comprobar la conexión real del servidor, ejecuta `npm.cmd run ai:check`.
+Envía a Gemini únicamente un vehículo de ejemplo y comprueba el mismo generador
+de reportes que utiliza la web, sin modificar usuarios ni vehículos guardados.
+Consume cuota de la API y requiere `GEMINI_API_KEY`; no la ejecutes sin configurar.
+En el nivel gratuito, Google puede utilizar las entradas y respuestas para mejorar
+sus productos. Consulta el aviso público en `/privacidad.html`.
+
 ## 5. Mercado Pago
 
 El proyecto incluye el flujo de suscripción. La guía detallada está en **GUIA_FREEMIUM.md**. Configura la aplicación y sus credenciales para el entorno que vayas a probar; usa cuentas y medios de prueba cuando estén disponibles para tu integración.
