@@ -2,6 +2,10 @@ import { GoogleGenAI } from '@google/genai';
 import { ApiError } from './supabase.js';
 
 export const DEFAULT_MODEL = 'gemini-3.8-flash';
+export const GEMINI_HTTP_OPTIONS = {
+  timeout: 25000,
+  retryOptions: { attempts: 2, initialDelay: 0.25, maxDelay: 1, jitter: 0, httpStatusCodes: [408, 500, 502, 503, 504] }
+};
 export const SYSTEM_INSTRUCTION = `Eres un asistente de mantenimiento de autos y motos para Chile.
 Da orientación breve y comprensible, sin confirmar averías. No inventes especificaciones, campañas,
 precios, intervalos exactos de mantenimiento ni consultas a fuentes que no hayas realizado.
@@ -59,7 +63,7 @@ export async function generateReport(vehicle, symptoms, info, generate) {
   };
   try {
     const invoke = generate || (async params => {
-      const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY, httpOptions: {timeout: 25000, retryOptions: {attempts: 1}} });
+      const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY, httpOptions: GEMINI_HTTP_OPTIONS });
       return ai.models.generateContent(params);
     });
     const response = await invoke(request);

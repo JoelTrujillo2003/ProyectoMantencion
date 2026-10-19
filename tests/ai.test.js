@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { DEFAULT_MODEL, generateReport, parseReport, mapAiError } from '../src/ai.js';
+import { DEFAULT_MODEL, GEMINI_HTTP_OPTIONS, generateReport, parseReport, mapAiError } from '../src/ai.js';
 import { GoogleGenAI } from '@google/genai';
 const report={estado:'Ejemplo de prueba; no es una evaluación real.',critico:['Revisar en taller.','Confirmar historial.'],mantenimiento:['Consultar manual.','Confirmar versión.']};
 test('Gemini solicita salida estructurada, con límite de espera y sin identidad de cuenta',async()=>{
@@ -41,4 +41,16 @@ test('el SDK instalado serializa la solicitud y lee el reporte con transporte si
     const result=await generateReport({},'',{},params=>client.models.generateContent(params));
     assert.ok(called); assert.deepEqual(result.report,report);
   } finally { if(previous===undefined) delete process.env.GEMINI_MODEL; else process.env.GEMINI_MODEL=previous; }
+});
+
+test('reintenta una indisponibilidad temporal de Gemini y recupera el reporte',async()=>{
+  let calls=0;
+  const client=new GoogleGenAI({apiKey:'test-key-no-real-service',httpOptions:{...GEMINI_HTTP_OPTIONS,fetch:async()=>{
+    calls++;
+    if(calls===1) return Response.json({error:{code:503,message:'Temporary unavailable',status:'UNAVAILABLE'}},{status:503});
+    return Response.json({candidates:[{content:{role:'model',parts:[{text:JSON.stringify(report)}]},finishReason:'STOP'}]});
+  }}});
+  const result=await generateReport({},'',{},params=>client.models.generateContent(params));
+  assert.equal(calls,2);
+  assert.deepEqual(result.report,report);
 });

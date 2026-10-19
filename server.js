@@ -245,6 +245,16 @@ app.post('/api/webhooks/mercadopago', asyncRoute(async (req, res) => {
 
 app.use((error, req, res, next) => {
   if (process.env.NODE_ENV !== 'test') console.error('[API]', error.code || 'internal_error', 'status:', error.status || 500);
+  if (process.env.NODE_ENV !== 'test' && error.code?.startsWith('ai_') && error.cause) {
+    // Solo códigos técnicos: no se registran claves, vehículos, síntomas ni respuestas.
+    const cause = error.cause;
+    const transportCode = String(cause.cause?.code || cause.code || '');
+    console.error('[AI upstream]', JSON.stringify({
+      name: /^(?:Error|TypeError|AbortError|TimeoutError|ApiError)$/.test(cause.name) ? cause.name : 'Error',
+      status: Number(cause.status || cause.statusCode) || null,
+      transportCode: /^(?:[A-Z][A-Z0-9_]{1,60}|\d{3})$/.test(transportCode) ? transportCode : null
+    }));
+  }
   const status = error.status || 500;
   res.status(status).json({
     error: status >= 500 && error.code !== 'feedback_not_configured' && !error.code?.startsWith('ai_') ? 'No se pudo completar la operación.' : error.message,
