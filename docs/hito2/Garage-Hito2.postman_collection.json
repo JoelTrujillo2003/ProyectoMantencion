@@ -1,0 +1,437 @@
+{
+  "info": {
+    "name": "Garage Premium Moderno · Hito 2",
+    "description": "Cliente importable para demostrar HTTP, persistencia y errores. No incluye credenciales reales.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{access_token}}",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:3000"
+    },
+    {
+      "key": "supabase_url",
+      "value": "https://TU_PROYECTO.supabase.co"
+    },
+    {
+      "key": "supabase_publishable_key",
+      "value": ""
+    },
+    {
+      "key": "email",
+      "value": ""
+    },
+    {
+      "key": "password",
+      "value": ""
+    },
+    {
+      "key": "access_token",
+      "value": ""
+    },
+    {
+      "key": "vehicle_id",
+      "value": ""
+    },
+    {
+      "key": "record_id",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "00 · Iniciar sesión (correo de prueba)",
+      "request": {
+        "method": "POST",
+        "url": "{{supabase_url}}/auth/v1/token?grant_type=password",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "apikey",
+            "value": "{{supabase_publishable_key}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"{{email}}\",\n  \"password\": \"{{password}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "Usar valores privados en Postman. Si la cuenta solo usa Google, colocar un access_token vigente en la variable local sin publicarlo."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('HTTP 200', () => pm.response.to.have.status(200));",
+              "if (pm.response.code === 200) pm.collectionVariables.set('access_token', pm.response.json().access_token);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "01 · Demostración en vivo: cuatro verbos del recurso vehículos",
+      "item": [
+        {
+          "name": "1 Crear vehículo",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/api/vehicles",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"type\": \"Moto\",\n  \"brand\": \"Bajaj\",\n  \"model\": \"Pulsar RS200\",\n  \"year\": 2020,\n  \"mileage\": 10000\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 201', () => pm.response.to.have.status(201));",
+                  "if (pm.response.code === 201) pm.collectionVariables.set('vehicle_id', pm.response.json().vehicle.id);"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "2 Leer vehículo persistido",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/api/vehicles/{{vehicle_id}}"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "3 Reemplazar kilometraje",
+          "request": {
+            "method": "PUT",
+            "url": "{{base_url}}/api/vehicles/{{vehicle_id}}",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"type\": \"Moto\",\n  \"brand\": \"Bajaj\",\n  \"model\": \"Pulsar RS200\",\n  \"year\": 2020,\n  \"mileage\": 12000\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "4 Borrar vehículo",
+          "request": {
+            "method": "DELETE",
+            "url": "{{base_url}}/api/vehicles/{{vehicle_id}}"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 204', () => pm.response.to.have.status(204));"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "02 · Segundo recurso: historial de mantención",
+      "item": [
+        {
+          "name": "Preparar vehículo propio",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/api/vehicles",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"type\": \"Moto\",\n  \"brand\": \"Bajaj\",\n  \"model\": \"Pulsar RS200\",\n  \"year\": 2020,\n  \"mileage\": 10000\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 201', () => pm.response.to.have.status(201));",
+                  "if (pm.response.code === 201) pm.collectionVariables.set('vehicle_id', pm.response.json().vehicle.id);"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Crear mantención",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/api/maintenance-records",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"vehicle_id\": \"{{vehicle_id}}\",\n  \"category\": \"service\",\n  \"performed_on\": \"2026-08-10\",\n  \"mileage\": 10000,\n  \"notes\": \"Cambio de aceite y revisión general.\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 201', () => pm.response.to.have.status(201));",
+                  "if (pm.response.code === 201) pm.collectionVariables.set('record_id', pm.response.json().record.id);"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Listar mantenciones del vehículo",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/api/maintenance-records?vehicle_id={{vehicle_id}}"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Leer una mantención",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/api/maintenance-records/{{record_id}}"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Reemplazar mantención",
+          "request": {
+            "method": "PUT",
+            "url": "{{base_url}}/api/maintenance-records/{{record_id}}",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"vehicle_id\": \"{{vehicle_id}}\",\n  \"category\": \"inspection\",\n  \"performed_on\": \"2026-08-10\",\n  \"mileage\": 10000,\n  \"notes\": \"Inspección de frenos y luces.\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Borrar mantención",
+          "request": {
+            "method": "DELETE",
+            "url": "{{base_url}}/api/maintenance-records/{{record_id}}"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 204', () => pm.response.to.have.status(204));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Borrar vehículo de preparación",
+          "request": {
+            "method": "DELETE",
+            "url": "{{base_url}}/api/vehicles/{{vehicle_id}}"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 204', () => pm.response.to.have.status(204));"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "03 · Errores controlados",
+      "item": [
+        {
+          "name": "Año inválido → 400",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/api/vehicles",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"type\": \"Moto\",\n  \"brand\": \"Bajaj\",\n  \"model\": \"Pulsar RS200\",\n  \"year\": 2000,\n  \"mileage\": 10000\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 400', () => pm.response.to.have.status(400));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Mantención inexistente → 404",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/api/maintenance-records/999999999"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('HTTP 404', () => pm.response.to.have.status(404));"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

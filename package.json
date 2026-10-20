@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "check": "node --check server.js && node --check public/app.js && node --check src/supabase.js && node --check src/entitlements.js && node --check src/mercadopago.js && node --check public/vehicles.js && node --check src/feedback.js && node --check public/vehicle-rules.js && node --check public/catalog-explorer.js && node --check src/vehicle-validation.js && node --check src/ai.js && node --check scripts/build-catalog.mjs && node --check public/auth-providers.js && node --check src/auth-settings.js",
+    "check": "node --check server.js && node --check public/app.js && node --check src/supabase.js && node --check src/entitlements.js && node --check src/mercadopago.js && node --check public/vehicles.js && node --check src/feedback.js && node --check public/vehicle-rules.js && node --check public/catalog-explorer.js && node --check src/vehicle-validation.js && node --check src/ai.js && node --check scripts/build-catalog.mjs && node --check public/auth-providers.js && node --check src/auth-settings.js && node --check src/controllers/vehicle-controller.js && node --check src/controllers/maintenance-controller.js && node --check src/services/vehicle-service.js && node --check src/services/maintenance-service.js && node --check src/repositories/vehicle-repository.js && node --check src/repositories/maintenance-repository.js",
     "ai:check": "node scripts/check-gemini.mjs",
     "mp:create-plan": "node scripts/create-mercadopago-plan.mjs",
     "test": "node --test tests/*.test.js",

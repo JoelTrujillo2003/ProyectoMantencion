@@ -3,7 +3,6 @@ import dotenv from 'dotenv';
 import { validateVehicle, catalog, rules } from './src/vehicle-validation.js';
 import { generateReport, DEFAULT_MODEL } from './src/ai.js';
 import { getSocialProviders } from './src/auth-settings.js';
-import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import {
@@ -24,6 +23,8 @@ import {
 } from './src/mercadopago.js';
 
 import { validateFeedback, mapFeedbackError } from './src/feedback.js';
+import vehicleRouter from './src/controllers/vehicle-controller.js';
+import maintenanceRouter from './src/controllers/maintenance-controller.js';
 
 dotenv.config();
 if (!process.env.APP_BASE_URL && process.env.RENDER_EXTERNAL_URL) {
@@ -38,19 +39,8 @@ export const app = express();
 app.use(express.json({ limit: '32kb' }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-const premiumCatalog = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'public', 'premium-vehicles.json'), 'utf8')
-);
-const premiumVehicleKeys = new Set(
-  premiumCatalog.map(vehicle => vehicleKey(vehicle.type, vehicle.brand, vehicle.model))
-);
-
 function asyncRoute(handler) {
   return (req, res, next) => Promise.resolve(handler(req, res, next)).catch(next);
-}
-
-function vehicleKey(type, brand, model) {
-  return `${type}\u0000${brand}\u0000${model}`;
 }
 
 async function accountFor(token, userId) {
@@ -62,27 +52,6 @@ async function accountFor(token, userId) {
     )
   ]);
   return accountEntitlements(subscription, vehicles.length);
-}
-
-function mapDatabaseEntitlementError(error) {
-  if (/VEHICLE_NOT_IN_CATALOG|INVALID_VEHICLE_YEAR|INVALID_MILEAGE/.test(error.message || '')) {
-    return new ApiError(400, 'Revisa el modelo, año y kilometraje. El catálogo de la base de datos debe estar actualizado.', 'invalid_vehicle');
-  }
-  if (error.message?.includes('FREE_VEHICLE_LIMIT')) {
-    return new ApiError(
-      403,
-      'El plan gratuito permite guardar hasta 2 vehículos.',
-      'vehicle_limit_reached'
-    );
-  }
-  if (error.message?.includes('PREMIUM_VEHICLE_REQUIRED')) {
-    return new ApiError(
-      403,
-      'Ese modelo está disponible únicamente en Premium.',
-      'premium_vehicle_required'
-    );
-  }
-  return error;
 }
 
 app.get('/api/health', (req, res) => {
@@ -112,14 +81,8 @@ app.get('/api/account', asyncRoute(async (req, res) => {
   res.json(await accountFor(token, user.id));
 }));
 
-app.get('/api/vehicles', asyncRoute(async (req, res) => {
-  const { token, user } = await authenticateRequest(req);
-  const vehicles = await userDatabaseRequest(
-    token,
-    `vehicles?select=id,type,brand,model,year,mileage,created_at&user_id=eq.${encodeURIComponent(user.id)}&order=created_at.desc`
-  );
-  res.json({ vehicles });
-}));
+app.use('/api/vehicles', vehicleRouter);
+app.use('/api/maintenance-records', maintenanceRouter);
 
 app.post('/api/feedback', asyncRoute(async (req, res) => {
   const { token } = await authenticateRequest(req);
@@ -134,34 +97,6 @@ app.post('/api/feedback', asyncRoute(async (req, res) => {
     res.status(201).json({ id });
   } catch (error) {
     throw mapFeedbackError(error);
-  }
-}));
-
-app.post('/api/vehicles', asyncRoute(async (req, res) => {
-  const { token, user } = await authenticateRequest(req);
-  const vehicle = validateVehicle(req.body);
-  const subscription = await getUserSubscription(token, user.id);
-
-  if (
-    premiumVehicleKeys.has(vehicleKey(vehicle.type, vehicle.brand, vehicle.model))
-    && !hasPremiumAccess(subscription)
-  ) {
-    throw new ApiError(
-      403,
-      'Ese modelo está disponible únicamente en Premium.',
-      'premium_vehicle_required'
-    );
-  }
-
-  try {
-    const rows = await userDatabaseRequest(token, 'vehicles', {
-      method: 'POST',
-      headers: { Prefer: 'return=representation' },
-      body: [{ user_id: user.id, ...vehicle }]
-    });
-    res.status(201).json({ vehicle: rows[0] });
-  } catch (error) {
-    throw mapDatabaseEntitlementError(error);
   }
 }));
 

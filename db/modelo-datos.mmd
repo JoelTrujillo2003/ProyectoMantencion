@@ -1,0 +1,47 @@
+erDiagram
+  AUTH_USERS ||--o{ VEHICLES : posee
+  AUTH_USERS ||--o| SUBSCRIPTIONS : tiene
+  AUTH_USERS ||--o{ FEEDBACK : envia
+  AUTH_USERS ||--o{ MAINTENANCE_RECORDS : registra
+  VEHICLES ||--o{ MAINTENANCE_RECORDS : acumula
+  VEHICLE_CATALOG }o..o{ VEHICLES : valida_por_trigger
+  AUTH_USERS {
+    uuid id PK
+    text email
+  }
+  VEHICLES {
+    uuid id PK
+    uuid user_id FK
+    text type
+    text brand
+    text model
+    integer year
+    integer mileage
+  }
+  MAINTENANCE_RECORDS {
+    bigint id PK
+    uuid user_id FK
+    uuid vehicle_id FK
+    text category
+    date performed_on
+    integer mileage
+    text notes
+  }
+  SUBSCRIPTIONS {
+    uuid user_id PK,FK
+    text plan
+    text status
+  }
+  FEEDBACK {
+    uuid id PK
+    uuid user_id FK
+    text category
+    text subject
+  }
+  VEHICLE_CATALOG {
+    text type PK
+    text brand PK
+    text model PK
+    integer min_year
+    integer max_year
+  }
